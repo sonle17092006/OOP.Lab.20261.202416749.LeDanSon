@@ -38,6 +38,24 @@ Hello 	 world!
 
 ![2.2.1 HelloWorld output](screenshots/2.2.1-HelloWorld.png)
 
+### 2.2.2 FirstDialog
+
+![2.2.2 FirstDialog output](screenshots/2.2.2-FirstDialog.png)
+
+### 2.2.3 HelloNameDialog
+
+![2.2.3 HelloNameDialog input](screenshots/2.2.3-HelloNameDialog-input.png)
+
+![2.2.3 HelloNameDialog result](screenshots/2.2.3-HelloNameDialog-result.png)
+
+### 2.2.4 ShowTwoNumbers
+
+![2.2.4 first input](screenshots/2.2.4-ShowTwoNumbers-first-input.png)
+
+![2.2.4 second input](screenshots/2.2.4-ShowTwoNumbers-second-input.png)
+
+![2.2.4 result](screenshots/2.2.4-ShowTwoNumbers-result.png)
+
 ### 2.2.5 BasicOperations
 
 ```text
@@ -109,6 +127,6 @@ Sum matrix:
 
 ![6.6 MatrixAddition output](screenshots/6.6-MatrixAddition.png)
 
-The dialog-based exercises 2.2.2-2.2.4 and 6.1 are implemented in Swing and
-should be run from a desktop Java environment; their expected interaction is
-documented in the source code and the corresponding entries in `answers.txt`.
+The dialog-based exercises 2.2.2-2.2.4 are implemented in Swing and their
+desktop results are included above. Exercise 6.1 is also implemented in Swing
+and can be run from a desktop Java environment.
