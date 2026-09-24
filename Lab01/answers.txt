@@ -1,0 +1,19 @@
+Lab 01 - Answers
+
+6.1 ChoosingOption
+
+1. What happens if users choose “Cancel”?
+When the user clicks Cancel or closes the dialog, showConfirmDialog returns
+JOptionPane.CANCEL_OPTION (or CLOSED_OPTION when the dialog is closed). In the
+source code from Figure 28, only YES_OPTION is tested, so every non-Yes result
+is displayed as “No”.
+
+2. How can the options be customized to only “Yes” and “No”, or “I do” and “I don't”?
+Use JOptionPane.showOptionDialog with a custom options array, for example:
+Object[] options = {"I do", "I don't"};
+The selected option is returned as an index, which can then be mapped to the
+corresponding label. The handout's Figure 28 uses showConfirmDialog, whose
+standard Yes/No/Cancel buttons cannot be renamed.
+
+Implementation note
+ChoosingOption.java uses {"Yes", "No"} and explicitly handles CLOSED_OPTION.
