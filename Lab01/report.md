@@ -6,7 +6,7 @@ Repository: `OOP.Lab.20261.202416749.LeDanSon`
 
 ## GitHub repository
 
-`REPLACE_WITH_PUBLIC_GITHUB_REPOSITORY_URL`
+[OOP.Lab.20261.202416749.LeDanSon](https://github.com/sonle17092006/OOP.Lab.20261.202416749.LeDanSon)
 
 The repository should be public and use the `master` or `main` branch, as
 specified in the lab guidelines.
